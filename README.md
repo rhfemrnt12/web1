@@ -1,6 +1,4 @@
-<!doctype html>
 <head>
-  <title>WEB1 - Welcome</title>
   <meta charset="utf-8">
 </head>
 
