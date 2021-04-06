@@ -15,6 +15,19 @@ document.querySelector('body').style.color='white';
 document.querySelector('body').style.backgroundColor='white';
 document.querySelector('body').style.color='black';
 ">
+<input id='night_day' type='button' value='night' onclick="
+if(document.querySelector('#night_day').value === 'night'){
+  document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='white';
+  //this.value='day';
+  document.querySelector('#night_day').value = 'day';
+}
+else {
+  document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black';
+  //this.value='night';
+  document.querySelector('#night_day').value = 'night';
+}"
 <div id="grid">
 <ol>
   <li><a href="1.html" target="_self">HTML</a></li>
